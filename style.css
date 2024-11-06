@@ -1,0 +1,42 @@
+/* main.css */
+.text-animation {
+    animation: text-animation 2s infinite;
+}
+
+.text-animation:hover {
+    background-color: blueviolet;
+    animation-play-state: paused;
+}
+
+#animate {
+    background-color: #3498db;
+}
+
+.text-colored {
+    color: #3498db;
+}
+
+.text-sized {
+    font-size: 40px;
+}
+
+.text-bg-circled-colored {
+    background-color: greenyellow;
+    background-size: cover;
+    border-radius: 45%;
+}
+
+table tbody tr th[scope="col"],
+table tbody tr th[scope="row"] {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+table tbody tr td {
+    background-color: gray;
+}
+
+html {
+    background-color: gray;
+}
